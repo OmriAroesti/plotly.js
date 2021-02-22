@@ -163,7 +163,7 @@ module.exports = {
     mainIndex: mainIndex,
     pathToPlotlyIndex: pathToPlotlyIndex,
     pathToPlotlyTraces: pathToPlotlyTraces,
-    pathToPlotlyCore: path.join(pathToSrc, 'core.js'),
+    pathToPlotlyCore: path.join(pathToLib, 'core.js'),
     pathToPlotlyVersion: path.join(pathToSrc, 'version.js'),
     pathToPlotlyBuild: path.join(pathToBuild, 'plotly.js'),
     pathToPlotlyBuildMin: path.join(pathToBuild, 'plotly.min.js'),
